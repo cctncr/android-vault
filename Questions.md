@@ -1,0 +1,9 @@
+- What is Android?
+- _Android’s platform architecture consists of multiple layers, including the Linux Kernel, Android Runtime (ART), and the Hardware Abstraction Layer (HAL). Can you explain how these components work together to ensure application execution and hardware interaction?_
+- _What is the key difference between explicit and implicit intents, and in what scenarios would you use each?_
+- _How does the Android system determine which app should handle an implicit intent, and what happens if no suitable application is found?_
+- What is a PendingIntent, and how does it differ from a regular Intent? Can you provide a scenario where using a PendingIntent is necessary?
+- What are the key differences between Serializable and Parcelable in Android, and why is Parcelable generally preferred for passing databetween components?
+- Why is it important to use the correct type of Context in Android applications, and what are the potential risks of holding a long-lived reference to an Activity Context? 
+- How do intent filters in AndroidManifest enable app interactions, and what happens if an activity class is not registered in AndroidManifest?
+- What is the difference between onPause() and onStop(), and in what scenarios should each be used for handling resource-intensive operations?

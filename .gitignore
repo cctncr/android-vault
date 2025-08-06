@@ -1,0 +1,9 @@
+# Obsidian config
+.obsidian/
+
+# Sistem dosyaları  
+.DS_Store
+Thumbs.db
+
+# Geçici dosyalar
+.trash/
