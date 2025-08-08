@@ -1,9 +1,47 @@
-- What is Android?
+- What is Android? [[Android]]
 - _Android’s platform architecture consists of multiple layers, including the Linux Kernel, Android Runtime (ART), and the Hardware Abstraction Layer (HAL). Can you explain how these components work together to ensure application execution and hardware interaction?_
+- What is Intent [[Intent]]
 - _What is the key difference between explicit and implicit intents, and in what scenarios would you use each?_
+- What is Intent Filters?[[Intent Filter]]
+- What is the purpose of Pending Intent? [[Pending Intent]]
 - _How does the Android system determine which app should handle an implicit intent, and what happens if no suitable application is found?_
 - What is a PendingIntent, and how does it differ from a regular Intent? Can you provide a scenario where using a PendingIntent is necessary?
+- What are the differences between Serializable and Parcelable [[Serializable & Parcelable]]
 - What are the key differences between Serializable and Parcelable in Android, and why is Parcelable generally preferred for passing databetween components?
+- What is Parcel and Parcelable?
+- What is Context and what types of Context exist?[[Context]]
+- What is ContextWrapper? [[Context Wrapper]]
+- What are the differences between this and baseContext instances on Activity?
 - Why is it important to use the correct type of Context in Android applications, and what are the potential risks of holding a long-lived reference to an Activity Context? 
+- What is Application class? [[Application Class]]
+- What is the purpose of the Application class, and how does it dif er from an Activity in terms of lifecycle and resource management?
+- What is the purpose of the AndroidManifest file? [[AndroidManifest File]]
 - How do intent filters in AndroidManifest enable app interactions, and what happens if an activity class is not registered in AndroidManifest?
+- Describe the Activity lifecycle [[Activity Lifecycle]]
 - What is the difference between onPause() and onStop(), and in what scenarios should each be used for handling resource-intensive operations?
+- Lifecycle changes between multiple Activities
+- What’s the lifecycle instance in an Activity?
+- Describe the Fragment lifecycle [[Fragment Lifecycle]]
+- What is the purpose of onCreateView() and onDestroyView(), and why is it important to properly handle view-related resources in these methods?
+- What are the differences Between fragmentManager and childFragmentManager?
+- What is the viewLifecycleOwner instance in a Fragment?
+- What is Service? [[Service]]
+- What is the difference between a started service and a bound service in Android, and when would you use each?
+- How do you handle foreground service?
+- What’s the lifecycle of the service?
+- What is BroadcastReceiver? [[BroadcastReceiver]]
+- What are the dif erent types of broadcasts, and how do system broadcasts dif er from custom broadcasts in terms of functionality and usage?
+- What is the purpose of a ContentProvider, and how does it facilitate secure data sharing between applications? [[ContentProvider]]
+- What are the key components of a ContentProvider URI, and how does the ContentResolver interact with a ContentProvider to query or modify data?
+- What is a use case for using a ContentProvider to initialize resources or configurations when an app starts?
+- How to handle configuration changes? [[Handling Configuration Change]]
+- What are the dif erent strategies for handling configuration changes, and how does the ViewModel help in preserving UI-related data during such events?
+-  How does the android:configChanges attribute in AndroidManifest affect activity lifecycle behavior, and in what scenarios should onConfigurationChanged() method be used instead of relying on activity recreation?
+- How Android handles memory management, and how do you avoid memory leaks? [[Avoiding Memory Leaks]]
+- What are some common causes of memory leaks in applications, and how can developers prevent them?
+- How does Android’s garbage collection mechanism work, and what tools can developers use to detect and fix memory leaks in their applications?
+- What are the main causes of ANR errors, and how can you prevent them from occurring? [[ANR]]
+- How can you detect & diagnose ANRs and improving app performance?
+- How do you handle deep links? [[Deep Links]]
+- How can you test deep links in Android, and what are some common debugging techniques to ensure they work correctly across dif erent devices and scenarios?
+- What are tasks and back stack? [[Tasks & Back Stack]]

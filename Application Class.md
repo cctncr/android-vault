@@ -1,5 +1,5 @@
 global application state'i ve lifecycle'ini maintain eden base class olarak ise yarar.
-Bir entry point gibi davranir, activiti'ler, service'ler ya da broadcast recevier'lar gibi diger componentlerden once initialize olur.
+Bir entry point gibi davranir, activity'ler, service'ler ya da broadcast recevier'lar gibi diger componentlerden once initialize olur.
 Application class'i app lifecycle'i boyunca available olan bir context saglar, bu shared resource'larin initialize edilmesi icin idealdir.
 Bu class'i global state tutmak icin ya da application-wide initialization'lar icin kullanabiliriz.
 Bu class'i override edip dependencies set edip, kutuphaneleri configure edip, resources'lari yonetmek icin kullanabiliriz.
@@ -36,4 +36,4 @@ Ornek:
 Best Practices:
 - onCreate icinde uzun suren task'ler yapilmamali bu delay'e yol acar
 - Global initalization ve resource management icin kullanilmalidir, sacma sapan logic icermemeli
-- shared resources yonetilirken thread safety gozetilmeli 
+- shared resources yonetilirken thread safety gozetilmeli
