@@ -6,7 +6,7 @@ Bu class'i override edip dependencies set edip, kutuphaneleri configure edip, re
 Her Android uygulamasi eger custom bir class AndroidManifest dosyasi icerisinde specify edilmediye base bir Application class'i kullanir.
 
 Key Methods:
-- onCreate(): app process create edildiginde cagrilir. database instance'lari, network librari'leri ya da analytics tool'lari gibi application-wide dependenci'leri initialize etmek icin kullanilir. app lifecycle'i boyunca bir kez cagrilir.
+- onCreate(): app process create edildiginde cagrilir. database instance'lari, network library'leri ya da analytics tool'lari gibi application-wide dependency'leri initialize etmek icin kullanilir. app lifecycle'i boyunca bir kez cagrilir.
 - onTerminate: emulated cihazlarda app terminated oldugunda cagrilir. gercek cihazlarda cagrilacagi garanti edilmez.
 - onLowMemory() ve onTrimMemory(): sistem low memory algiladiginda triger'lanir. onLowMemory daha eski API surumleri icin kullanilir.
 

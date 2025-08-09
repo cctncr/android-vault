@@ -48,3 +48,13 @@
 - What is the difference between singleTask and singleInstance launch modes, and in what scenarios would you use each?
 - What are the different activity launch modes, and how do they influence task and back stack behavior?
 - What’s the purpose of Bundle? [[Bundle]]
+- How does onSaveInstanceState() use a Bundle to preserve UI state during configuration changes, and what types of data can be stored in a Bundle?
+- How do you pass data between Activities or Fragments [[Passing Data Activities & Fragments]]
+- How does a shared ViewModel facilitate communication between Fragments within the same Activity, and what advantages does it offer over using Bundle or direct Fragment transactions?
+- What is Fragment Result API? [[Fragment Result API]]
+- What happens to an Activity during configuration changes? [[Activity During Configuration Change]]
+- How can developers prevent data loss during activity recreation caused by configuration changes, and what are the ways for handling transient and persistent state?
+- What is ActivityManager? [[ActivityManager]]
+- How can ActivityManager.getMemoryInfo() be used to optimize app performance, and what steps should developers take when the system enters a low-memory state?
+- What are the advantages of using SparseArray [[SparseArray]]
+- How do you handle runtime permissions? [[Runtime Permissions]]

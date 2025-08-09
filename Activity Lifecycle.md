@@ -1,4 +1,4 @@
-bir activity'nin omru boyunca gectigi state'le denir. 
+bir activity'nin omru boyunca gectigi state'lere denir. 
 - onCreate(): activity create edildiginde ilk cagrilan method'dur. Burada activity initialize edilmesi, Ui componentlerinin kurulmasi ve saved instance state'in restore edilmesi gibi islemler yapilir. eger activity destroy olup tekrar create edilmezse activity lifecycle'i boyunca bir kez cagrilir.
 - onStart(): activity kullaniciye ilk gorunur ama interactive olmadigi durumda olur. onCreate() den sonra, onResume()'dan once cagrilir.
 - onRestart(): eger activity stop olmus ve sonra restarted durumuna gectiyse cagrilir. (mesela kullanici geri tusuyla bu activity'e dondu). on start() method'undan once cagrilir.
