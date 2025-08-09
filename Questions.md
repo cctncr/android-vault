@@ -45,3 +45,6 @@
 - How do you handle deep links? [[Deep Links]]
 - How can you test deep links in Android, and what are some common debugging techniques to ensure they work correctly across dif erent devices and scenarios?
 - What are tasks and back stack? [[Tasks & Back Stack]]
+- What is the difference between singleTask and singleInstance launch modes, and in what scenarios would you use each?
+- What are the different activity launch modes, and how do they influence task and back stack behavior?
+- What’s the purpose of Bundle? [[Bundle]]
